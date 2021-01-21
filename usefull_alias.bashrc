@@ -5,4 +5,4 @@ alias mac2cisco="sed -e 's/\([0-9a-fA-F]\{2\}\):\([0-9a-fA-F]\{2\}\):\([0-9a-fA-
 # IPs
 alias sort_ip_list='sort -n -t \. -k 1,1n -k2,2n -k 3,3n -k 4,4n'
 alias whatismyip='curl https://wtfismyip.com/text'
-
+alias no_ips='sed -e "s/[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*/A\.B\.C\.HOST/"'
