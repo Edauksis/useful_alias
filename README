@@ -2,5 +2,7 @@ My collection of useful alias for .bashrc
 
 mac2cisco and cisco2mac for converting MAC addresses representation
 sort_ip_list, self descriptive name
+whatismyip, get public ip from whatismyip.com
+no_ips, remove ip addresses 
 
 
